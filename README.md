@@ -14,3 +14,7 @@ A windows-form application to do customer segmentation base on Vector Quantizati
 # About the application
 
 In this application, I just categorize 3 type of customer (Regular, Potential and VIP) but I believe it can be developed into more than 3 types. Customers who have the highest total purchases will be grouped into VIPs. Customers who have the lowest total purchases will be grouped into Regulars. And the ones who have the total purchases between highest and lowest will be Potential. At this point, the vector quantization will decided which value is high/low/medium. For detail explanation on how the application works, please go to file explanation-with-sample-case.docx
+
+# Proses.cs
+
+This file is the souce codes that are written in c# languages. This is the process of the Vector Quantization Algorithm.
